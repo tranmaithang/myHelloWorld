@@ -1,10 +1,29 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Express 2013 for Windows Desktop
+# Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "algorithm", "algorithm", "{99A7DA41-F0A0-4748-9C49-71A18CFE5890}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "basis knowledge", "basis knowledge", "{506327CA-85EF-431E-B48F-01583CC2AA79}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "factorial", "algorithm\factorial\factorial.vcxproj", "{3E7BFFDF-E260-4B72-9BA1-E821D2553741}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E7BFFDF-E260-4B72-9BA1-E821D2553741}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3E7BFFDF-E260-4B72-9BA1-E821D2553741}.Debug|Win32.Build.0 = Debug|Win32
+		{3E7BFFDF-E260-4B72-9BA1-E821D2553741}.Release|Win32.ActiveCfg = Release|Win32
+		{3E7BFFDF-E260-4B72-9BA1-E821D2553741}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3E7BFFDF-E260-4B72-9BA1-E821D2553741} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
 	EndGlobalSection
 EndGlobal
