@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asymmetry_word", "algorithm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sort_array", "algorithm\sort_array\sort_array.vcxproj", "{00FA6EEF-8810-4057-9A59-C84C3B388E57}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pi", "algorithm\pi\pi.vcxproj", "{277DFA4F-5D96-4C25-8B19-D6B5AF1B6F20}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -43,6 +45,10 @@ Global
 		{00FA6EEF-8810-4057-9A59-C84C3B388E57}.Debug|Win32.Build.0 = Debug|Win32
 		{00FA6EEF-8810-4057-9A59-C84C3B388E57}.Release|Win32.ActiveCfg = Release|Win32
 		{00FA6EEF-8810-4057-9A59-C84C3B388E57}.Release|Win32.Build.0 = Release|Win32
+		{277DFA4F-5D96-4C25-8B19-D6B5AF1B6F20}.Debug|Win32.ActiveCfg = Debug|Win32
+		{277DFA4F-5D96-4C25-8B19-D6B5AF1B6F20}.Debug|Win32.Build.0 = Debug|Win32
+		{277DFA4F-5D96-4C25-8B19-D6B5AF1B6F20}.Release|Win32.ActiveCfg = Release|Win32
+		{277DFA4F-5D96-4C25-8B19-D6B5AF1B6F20}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,5 +59,6 @@ Global
 		{482FE4EB-A542-4698-A04D-ED8963CC6B68} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
 		{80F7426B-F50F-4464-8248-042F8CCB4909} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
 		{00FA6EEF-8810-4057-9A59-C84C3B388E57} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
+		{277DFA4F-5D96-4C25-8B19-D6B5AF1B6F20} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
 	EndGlobalSection
 EndGlobal

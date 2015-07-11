@@ -3,7 +3,7 @@
 // Interview : PNP Paribas - Trader Assitant - 27-Mar-2014
 
 // Author : TMT
-//  Created on November 16, 2014, 12:19 PM 
+// Created on November 16, 2014, 12:19 PM 
 
 #include <iostream>
 #include <array>
