@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "max", "algorithm\max\max.vc
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "transpose_matrix", "algorithm\transpose_matrix\transpose_matrix.vcxproj", "{482FE4EB-A542-4698-A04D-ED8963CC6B68}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "asymmetry_word", "algorithm\asymmetry_word\asymmetry_word.vcxproj", "{80F7426B-F50F-4464-8248-042F8CCB4909}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -31,6 +33,10 @@ Global
 		{482FE4EB-A542-4698-A04D-ED8963CC6B68}.Debug|Win32.Build.0 = Debug|Win32
 		{482FE4EB-A542-4698-A04D-ED8963CC6B68}.Release|Win32.ActiveCfg = Release|Win32
 		{482FE4EB-A542-4698-A04D-ED8963CC6B68}.Release|Win32.Build.0 = Release|Win32
+		{80F7426B-F50F-4464-8248-042F8CCB4909}.Debug|Win32.ActiveCfg = Debug|Win32
+		{80F7426B-F50F-4464-8248-042F8CCB4909}.Debug|Win32.Build.0 = Debug|Win32
+		{80F7426B-F50F-4464-8248-042F8CCB4909}.Release|Win32.ActiveCfg = Release|Win32
+		{80F7426B-F50F-4464-8248-042F8CCB4909}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 		{3E7BFFDF-E260-4B72-9BA1-E821D2553741} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
 		{676D8E96-A324-49A7-AECF-B7A1119C6A0C} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
 		{482FE4EB-A542-4698-A04D-ED8963CC6B68} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
+		{80F7426B-F50F-4464-8248-042F8CCB4909} = {99A7DA41-F0A0-4748-9C49-71A18CFE5890}
 	EndGlobalSection
 EndGlobal
