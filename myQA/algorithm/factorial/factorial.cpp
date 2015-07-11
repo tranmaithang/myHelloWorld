@@ -1,5 +1,5 @@
 // ALGORITHM 
-// Factorial - Tinh giai thua
+// Factorial 
 // Interview : PNP Paribas - Trader Assitant - 27-Mar-2014
 
 // Author : TMT

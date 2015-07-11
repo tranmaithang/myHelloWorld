@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{277DFA4F-5D96-4C25-8B19-D6B5AF1B6F20}</ProjectGuid>
-    <RootNamespace>pi</RootNamespace>
+    <ProjectGuid>{D30C5382-338B-4808-8351-05FB4E4DCD6A}</ProjectGuid>
+    <RootNamespace>maths_puzzle</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -66,7 +66,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="pi.cpp" />
+    <ClCompile Include="maths_puzzle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
