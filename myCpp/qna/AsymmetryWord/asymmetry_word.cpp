@@ -15,8 +15,6 @@ bool isAsymmetry(string aString)
 	bool test = true;
 	for (size_t i = 0; i < aString.size(); i++)
 	{
-		char vChar = aString[i];
-		char vChar1 = aString[aString.size() - i];
 		if (aString[i] != aString[aString.size() - i - 1])
 		{
 			test = false;

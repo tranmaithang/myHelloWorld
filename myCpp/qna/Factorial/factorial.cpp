@@ -22,7 +22,7 @@ int factorial1(int n)
 int factorial2(int n)
 {
 	if (n > 1)
-		return (n*factorial2(n - 1)); // Recursivity
+		return (n * factorial2(n - 1)); // Recursivity
 	else
 		return 1;
 }

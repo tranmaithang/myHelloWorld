@@ -17,7 +17,8 @@ int* sortArray1(int arg[], int size)	// Pass array to function and return array 
 	{
 		for (int j = 0; j < size; j++)
 		{
-			if (arg[i] < arg[j]){
+			if (arg[i] < arg[j])
+			{
 				saveValue = arg[i];
 				arg[i] = arg[j];
 				arg[j] = saveValue;
@@ -34,7 +35,8 @@ void sortArray2(int arg[], int size)
 	{
 		for (int j = 0; j < size; j++)
 		{
-			if (arg[i] < arg[j]){
+			if (arg[i] < arg[j])
+			{
 				saveValue = arg[i];
 				arg[i] = arg[j];
 				arg[j] = saveValue;
@@ -50,7 +52,8 @@ array <int, 5> sortArray3(array <int, 5> arg)	// Pass array to function and retu
 	{
 		for (int j = 0; j < 5; j++)
 		{
-			if (arg[i] < arg[j]){
+			if (arg[i] < arg[j])
+			{
 				saveValue = arg[i];
 				arg[i] = arg[j];
 				arg[j] = saveValue;
